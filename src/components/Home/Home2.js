@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
+import homeLogo from "../../Assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -16,7 +17,7 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={9} className="home-about-description">
+          <Col md={7} className="home-about-description">
             <h1 style={{ fontSize: "2.4em", fontWeight: "bold" , textAlign: "left"}}>
               Let Me <span className="purple"> Introduce </span> Myself
             </h1>
@@ -42,9 +43,9 @@ function Home2() {
 
             </p>
           </Col>
-          <Col md={3} className="myAvtar">
+          <Col md={5} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={homeLogo} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
