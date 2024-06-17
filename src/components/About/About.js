@@ -21,7 +21,13 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px", fontWeight: "bold",}}>
+            <h1
+              style={{
+                fontSize: "2.1em",
+                paddingBottom: "20px",
+                fontWeight: "bold",
+              }}
+            >
               About <strong className="purple"> Myself</strong>
             </h1>
             <Aboutcard />
@@ -34,9 +40,6 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
-        </h1>
 
         <Techstack />
 
